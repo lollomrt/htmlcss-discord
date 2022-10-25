@@ -20,6 +20,11 @@ h3 {
     font-size: 30px;
 }
 
+h5 {
+    font-size: 18px;
+    line-height: 26px;
+}
+
 p {
     font-size: 18px;
     line-height: 26px;
@@ -71,13 +76,18 @@ header {
     display: flex;
 }
 
-.contenuto ul {
+.nav-header {
     list-style-type: none;
     font-size: 16px;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#logo {
+    width: auto;
+    max-width: 100%;
 }
 
 .col-sm-left {
@@ -218,12 +228,6 @@ header {
     padding: 100px 0;
   }
 
-.green {
-    background-color: green;
-    height: 600px;
-    border: 3px dashed black;
-}
-
 /* Sezione 5 */
 
 .sfondo-stelle {
@@ -248,13 +252,19 @@ header {
 
 .col-15 {
     width: 15%;
-    height: 500px;
-    border: 3px dashed black;
-    background-color: skyblue;
 }
 
-.dark-pink {
-    background-color: palevioletred;
+.nav-footer {
+    list-style-type: none;
+}
+
+footer h5 {
+    color:#8ea1e1;
+}
+
+footer li {
+    color:#fff; 
+    padding: 5px 0;
 }
 
 .copyright {
@@ -271,11 +281,11 @@ header {
 
 .row-footer {
     padding-bottom: 40px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #8ea1e1
 }
 
 .container-bg-footer {
-    background-color: black;
+    background-color: #23272a;
 }
 
 .btn {
