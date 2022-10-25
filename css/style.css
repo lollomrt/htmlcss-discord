@@ -12,6 +12,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 45px;
+}
+
 p {
     font-size: 18px;
     line-height: 26px;
@@ -29,6 +33,14 @@ button {
 
 .padding-top-bottom-20 {
     padding: 20px 0;
+}
+
+.padding-left-100 {
+    padding-left: 100px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
 }
 
 
@@ -155,21 +167,22 @@ header {
 
 .container-bg2 {
     background-color: white;
+    padding: 100px 0;
 }
 
 .col-60 {
     width: 60%;
-    height: 500px;
-    border: 3px dashed black;
-    background-color: skyblue;
 }
 
 .col-40 {
     width: 40%;
-    height: 500px;
-    border: 3px dashed black;
-    background-color: pink;
 }
+
+.container-bg2 img {
+    max-width: 100%;
+}
+
+/* Sezione 3 */
 
 .container-bg3, .container-bg5 {
     background-color: lightgrey;
