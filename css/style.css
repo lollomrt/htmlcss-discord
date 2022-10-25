@@ -209,18 +209,6 @@ header {
     padding: 100px 0;
 }  
 
-/*
-.container-bg3::before {
-    content: '';
-    background: url('../img/wave.svg');
-    width: 100%;
-    height: 400px; /*make the height the same as the height of the background image size
-    background-size: 100% 100%;
-    position: static;
-    top: 0;
-  }
-  */
-
 /* Sezione 4 */
 
   .container-bg4 {
@@ -268,29 +256,56 @@ footer li {
 }
 
 .copyright {
-    background-color: cyan;
-    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+
+.row-footer {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #8ea1e1
+}
+
+.viola {
+    color:#8ea1e1;
+}
+
+.container-bg-footer {
+    background-color: #23272a;
+    padding: 100px 0;
+}
+
+.btn {
+    width: 10%;
+}
+
+.row-inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenuto-inner-1 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.img-italia {
+    max-width: 20%;
+    margin-right: 5px;
+}
+
+.contenuto-inner-2 {
+    width: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.row-copyright {
- padding-top: 40px;
-}
-
-.row-footer {
-    padding-bottom: 40px;
-    border-bottom: 2px solid #8ea1e1
-}
-
-.container-bg-footer {
-    background-color: #23272a;
-}
-
-.btn {
-    background-color: pink;
-    height: 35px;
-    width: 10%;
-    border: 3px dashed black;
+.icon {
+    width: 12%;
+    filter: brightness(100);
 }
