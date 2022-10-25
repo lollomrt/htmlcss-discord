@@ -16,6 +16,10 @@ h2 {
     font-size: 45px;
 }
 
+h3 {
+    font-size: 30px;
+}
+
 p {
     font-size: 18px;
     line-height: 26px;
@@ -45,6 +49,11 @@ button {
 
 .margin-top-40 {
     margin-top: 40px;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
 }
 
 /* Header */
@@ -140,7 +149,7 @@ header {
     padding: 100px 250px;
 }
 
-.contenuto-sez-1 {
+.contenuto-sez-1, .contenuto-sez-5 {
     text-align: center;
 }
 
@@ -183,13 +192,9 @@ header {
     width: 40%;
 }
 
-.container-bg2 img {
-    max-width: 100%;
-}
-
 /* Sezione 3 */
 
-.container-bg3 {
+.container-bg3, .container-bg5 {
     background-color: #f6f6f6;
     padding: 100px 0;
 }  
@@ -206,6 +211,8 @@ header {
   }
   */
 
+/* Sezione 4 */
+
   .container-bg4 {
     background-color: #fff;
     padding: 100px 0;
@@ -215,6 +222,26 @@ header {
     background-color: green;
     height: 600px;
     border: 3px dashed black;
+}
+
+/* Sezione 5 */
+
+.sfondo-stelle {
+    width: 55%;
+    margin: 0 auto;
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 40px 0 0 0;
+}
+
+.btn-3 {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 40px;
+    background-color: #8ea1e1;
 }
 
 /* Footer */
