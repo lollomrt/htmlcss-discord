@@ -61,6 +61,10 @@ img {
     width: 100%;
 }
 
+.flex {
+    display:flex
+}
+
 /* Header */
 
 header {
@@ -204,6 +208,19 @@ header {
 
 /* Sezione 3 */
 
+.flex {
+    display:flex
+}
+
+.onda-grigia  {
+    filter: invert(100%) sepia(3%) saturate(1678%) hue-rotate(253deg) brightness(116%) contrast(93%);
+}
+
+.onda-grigia-ruotata {
+    transform: rotate(180deg);
+    filter: invert(100%) sepia(3%) saturate(1678%) hue-rotate(253deg) brightness(116%) contrast(93%);
+}
+
 .container-bg3, .container-bg5 {
     background-color: #f6f6f6;
     padding: 100px 0;
@@ -291,6 +308,11 @@ footer li {
     display: flex;
     align-items: center;
     color: #fff;
+    padding: 20px 0;
+}
+
+.contenuto-inner-1 h4 {
+    margin-right: 5px;
 }
 
 .img-italia {
@@ -305,7 +327,11 @@ footer li {
     align-items: center;
 }
 
-.icon {
-    width: 12%;
-    filter: brightness(100);
+.icon, i {
+    width: 15%;
+    color: white;
+}
+
+.contenuto-colonna-big {
+    width: 60%;
 }
